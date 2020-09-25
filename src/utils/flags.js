@@ -1,4 +1,6 @@
 import Rox from 'rox-browser'
+import store from '../store'
+import { betaAccess } from './users'
 
 export const Flags = {
   sidebar: new Rox.Flag(false),
